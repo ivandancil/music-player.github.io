@@ -23,13 +23,14 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    background-color: black;
 }
 .wrapper{
     width: 380px;
     overflow: hidden;
     position: relative;
     border-radius: 15px;
-    padding: 25px 30px;
+    padding: 5px 20px;
     background: var(--white);
     box-shadow: 0px 6px 15px var(--lightbshadow);
 }
@@ -48,11 +49,13 @@ body{
 .top-bar span{
     font-size: 18px;
     color: var(--lightblack);
+    margin-top: 4%;
 }
 .img-area{
     height: 256px;
-    width: 100%;
-    margin-top: 25px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 18px;
     overflow: hidden;
     border-radius: 15px;
     box-shadow: 0px 6px 12px var(--lightbshadow);
@@ -64,8 +67,8 @@ body{
 }
 .song-details{
     text-align: center;
-    margin: 10px 0;
-    margin: 30px 0;
+    margin: 12px 0;
+    margin: 23px 0;
     color: var(--lightblack);
 }
 .song-details .name{
@@ -115,10 +118,12 @@ body{
 }
 .controls{
     margin: 40px 0 5px 0;
+    margin-bottom: 5%;
 }
 .controls i:nth-child(2),
 .controls i:nth-child(4){
-    font-size: 43px;
+    font-size: 20px;
+    
 }
 .controls #prev{
     margin-right: -13px;
@@ -127,10 +132,10 @@ body{
     margin-left: -13px;
 }
 .controls .play-pause{
-    height: 54px;
-    width: 54px;
+    height: 50px;
+    width: 50px;
     background: linear-gradient(90deg, var(--darkwhite)0%, var(--white) 100%);
-    box-shadow: 0px 0px 5px var(--lightblack);
+    box-shadow: 0px 0px 8px var(--lightblack);
     border-radius: 50%;
     display: flex;
     align-items: center;
