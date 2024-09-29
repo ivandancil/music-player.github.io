@@ -18,6 +18,7 @@
     --pinkshadow: #ffcbdd;
     --lightbshadow: rgba(0,0,0,0.15);
 }
+
 body{
     display: flex;
     align-items: center;
@@ -26,6 +27,7 @@ body{
     width: 100%;
     background-color: white;
 }
+
 .wrapper{
     width: 380px;
     overflow: hidden;
@@ -38,6 +40,7 @@ body{
 .wrapper i{
     cursor: pointer;
 }
+
 .top-bar, .progress-area .timer, .controls, .music-list .header, .music-list li{
     display: flex;
     align-items: center;
@@ -52,6 +55,7 @@ body{
     color: var(--white);
     margin-top: 4%;
 }
+
 .img-area{
     height: 256px;
     width: 90%;
@@ -66,6 +70,8 @@ body{
     width: 100%;
     object-fit: cover;
 }
+
+
 .song-details{
     text-align: center;
     margin: 12px 0;
@@ -79,6 +85,8 @@ body{
     opacity: 0.9;
     font-size: 18px;
 }
+
+
 .progress-area{
     height: 6px;
     width: 100%;
@@ -220,8 +228,7 @@ ul li.playing{
 @media only screen and (max-width: 600px){
     .wrapper{
         height: 95vh;
-
-        
+     
     }
     .top-bar span{
         margin-top: 30px;
